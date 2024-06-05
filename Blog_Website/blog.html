@@ -1,0 +1,200 @@
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Blog_Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Blog</a>
+        <div class="navbar-nav">
+          <a href="">home</a>
+          <!-- <a href = "">design</a> -->
+          <a href="">blog</a>
+          <a href="">article</a>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="container">
+        <h1 class="banner-title">
+          <span>Art.</span> Design Blog
+        </h1>
+        <p>everything that you want to know about art & design</p>
+      </div>
+    </div>
+  </header>
+  <!-- end of header -->
+
+  <!-- blog -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="title">
+        <h2>Latest Blog</h2>
+        <p>recent blogs about art & design</p>
+      </div>
+      <div class="blog-content">
+        <!-- item -->
+        <div class="blog-item">
+          <div class="blog-img">
+            <img src=".\Img\blog1.jpeg" alt="">
+            <span><i class="far fa-heart"></i></span>
+          </div>
+          <div class="blog-text">
+            <span>20 January, 2020</span>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil!
+              Quaerat.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class="blog-item">
+          <div class="blog-img">
+            <img src=".\Img\blog2.jpeg" alt="">
+            <span><i class="far fa-heart"></i></span>
+          </div>
+          <div class="blog-text">
+            <span>20 January, 2020</span>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil!
+              Quaerat.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class="blog-item">
+          <div class="blog-img">
+            <img src=".\Img\blog3.jpeg" alt="">
+            <span><i class="far fa-heart"></i></span>
+          </div>
+          <div class="blog-text">
+            <span>20 January, 2020</span>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil!
+              Quaerat.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class="blog-item">
+          <div class="blog-img">
+            <img src=".\Img\blog4.jpeg" alt="">
+            <span><i class="far fa-heart"></i></span>
+          </div>
+          <div class="blog-text">
+            <span>20 January, 2020</span>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil!
+              Quaerat.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class="blog-item">
+          <div class="blog-img">
+            <img src=".\Img\blog5.jpeg" alt="">
+            <span><i class="far fa-heart"></i></span>
+          </div>
+          <div class="blog-text">
+            <span>20 January, 2020</span>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil!
+              Quaerat.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class="blog-item">
+          <div class="blog-img">
+            <img src=".\Img\blog6.jpeg" alt="">
+            <span><i class="far fa-heart"></i></span>
+          </div>
+          <div class="blog-text">
+            <span>20 January, 2020</span>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil!
+              Quaerat.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <!-- end of item -->
+      </div>
+    </div>
+  </section>
+  <!-- end of blog -->
+
+  <section>
+    <div id="Dashboard">
+      <h1 id="head1"><span>Dash</span>board</h1>
+      <div class="body">
+        <div class="sidebar">
+          <h2>Admin Dashboard</h2>
+          <ul>
+            <li><a href="#create">Create Article</a></li>
+            <li><a href="#edit">Edit Articles</a></li>
+            <li><a href="#publish">Publish Articles</a></li>
+          </ul>
+        </div>
+        <div class="main-content">
+          <header id="head">
+            <h1>Welcome, Admin</h1>
+          </header>
+          <section id="create">
+            <h2>Create Article</h2>
+            <form id="create-article-form">
+              <label for="title">Title:</label>
+              <input type="text" id="title" name="title" required>
+              <label for="content">Content:</label>
+              <textarea id="content" name="content" required></textarea>
+              <button type="submit">Create</button>
+            </form>
+          </section>
+          <section id="edit">
+            <h2>Edit Articles</h2>
+            <div id="edit-articles-list">
+            </div>
+          </section>
+          <section id="publish">
+            <h2>Publish Articles</h2>
+            <div id="publish-articles-list">
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+    </div>
+    <span>Art.Design Blog Page</span>
+  </footer>
+  <!-- end of footer -->
+
+  <script src="blog.js"></script>
+</body>
+
+</html>
